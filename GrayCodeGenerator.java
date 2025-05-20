@@ -27,7 +27,6 @@ public class GrayCodeGenerator {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt(); // Change n as needed
         List<String> grayCodes = generateGrayCode(n);
-        //System.out.println("Gray code sequence for " + n + " bits:");
         for (String code : grayCodes) {
             System.out.println(code);
         }
